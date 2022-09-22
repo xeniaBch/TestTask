@@ -1,14 +1,23 @@
 package Model;
 
 public class FilterItem {
-    private final String value1;
-    private final String value2;
-    private final String brand;
+    private  String value1;
+    private String value2;
+    private String brand;
 
-    public FilterItem(String value1, String value2, String brand) {
+    public FilterItem setValue1(String value1) {
         this.value1 = value1;
+        return this;
+    }
+
+    public FilterItem setValue2(String value2) {
         this.value2 = value2;
+        return this;
+    }
+
+    public FilterItem setBrand(String brand) {
         this.brand = brand;
+        return this;
     }
 
     public String getValue1() {

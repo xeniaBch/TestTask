@@ -1,12 +1,17 @@
 package Model;
 
 public class CategoryObject {
-    private final String category;
-    private final String subcategory;
+    private String category;
+    private String subcategory;
 
-    public CategoryObject(String category, String subcategory) {
+    public CategoryObject setCategory(String category) {
         this.category = category;
+        return this;
+    }
+
+    public CategoryObject setSubcategory(String subcategory) {
         this.subcategory = subcategory;
+        return this;
     }
 
     public String getCategory() {

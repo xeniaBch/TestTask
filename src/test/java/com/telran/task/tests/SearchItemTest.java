@@ -14,9 +14,14 @@ public class SearchItemTest extends TestBase{
         app.getSearch().switchToNextTab(1);
         app.getSearch().selectExpressDepartment();
         app.getSearch().acceptCookies();
-        app.getSearch().selectCategory(new CategoryObject("elektronika/23282330", "smartfony-i-aksessuary/23282379"));
+        app.getSearch().selectCategory(new CategoryObject()
+                .setCategory("elektronika/23282330")
+                .setSubcategory("smartfony-i-aksessuary/23282379"));
         app.getSearch().jumpDown();
-        app.getSearch().filterItem(new FilterItem("20000", "35000", "Xiaomi"));
+        app.getSearch().filterItem(new FilterItem()
+                .setValue1("20000")
+                .setValue2("35000")
+                .setBrand("Xiaomi"));
         app.getSearch().pause(10000);
         String itemName = app.getSearch().getItemNameByOrder(2);
         app.getSearch().typeInSearchInputField(itemName);
