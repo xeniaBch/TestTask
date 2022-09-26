@@ -1,16 +1,18 @@
 package Framework;
 
+import Utils.MyListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     String browser;
-    WebDriver driver;
-
+   // WebDriver driver;
+    EventFiringWebDriver driver;
     SearchHelper search;
 
     public ApplicationManager(String browser) {
@@ -23,15 +25,16 @@ public class ApplicationManager {
 
     public void init() {
         if(browser.equals(BrowserType.CHROME)){
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            driver = new EventFiringWebDriver(new ChromeDriver());
         } else if (browser.equals(BrowserType.FIREFOX)) {
-            driver = new FirefoxDriver();
+            driver = new EventFiringWebDriver(new FirefoxDriver());
         }
-        driver = new ChromeDriver();
         driver.get("https://ya.ru");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         search = new SearchHelper(driver);
+        driver.register(new MyListener());
     }
 
     public void stop() {

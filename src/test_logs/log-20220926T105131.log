@@ -1,0 +1,36 @@
+975  [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: .home-link2.services-pinned__item.services-pinned__all
+1018 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: .home-link2.services-pinned__item.services-pinned__allwas found
+1132 [main] INFO  Utils.MyListener - Start find element -->By.xpath: //*[text()='Маркет']
+1311 [main] INFO  Utils.MyListener - Element with locatorBy.xpath: //*[text()='Маркет']was found
+1555 [main] INFO  Utils.MyListener - Start find element -->By.xpath: //span[text()='Экспресс']
+6048 [main] INFO  Utils.MyListener - Element with locatorBy.xpath: //span[text()='Экспресс']was found
+9091 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: [data-id='button-all']
+9150 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: [data-id='button-all']was found
+9325 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']
+9410 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']was found
+14970 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']
+15250 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']was found
+20342 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']
+20680 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']was found
+20972 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']
+21052 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']was found
+21134 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']
+21165 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']was found
+21929 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']
+21990 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']was found
+22195 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']
+22252 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']was found
+22314 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']
+22369 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']was found
+26782 [main] INFO  Utils.MyListener - Start find element -->By.xpath: //span[text()='Xiaomi']
+36919 [main] INFO  Utils.MyListener - We have throwable -->no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Xiaomi']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7JRM91AM', ip: '192.168.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\79538\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 52e5e04a556ad21a0fbbda79d418d203
+*** Element info: {Using=xpath, value=//span[text()='Xiaomi']}
+36920 [main] INFO  Utils.MyListener - We have throwable -->null
+36921 [main] INFO  Utils.MyListener - We have throwable -->null
