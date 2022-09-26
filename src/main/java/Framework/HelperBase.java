@@ -1,9 +1,11 @@
 package Framework;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 
+
+import java.io.File;
+import java.io.IOException;
 
 import static java.lang.Thread.sleep;
 
@@ -39,6 +41,16 @@ public class HelperBase {
             e.printStackTrace();
         }
 
+    }
+
+    public void takeScreenshot(String pathToFile){
+        File tmp = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(pathToFile);
+        try {
+            Files.copy(tmp, screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 

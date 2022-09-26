@@ -1,0 +1,40 @@
+458  [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: .home-link2.services-pinned__item.services-pinned__all
+488  [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: .home-link2.services-pinned__item.services-pinned__allwas found
+598  [main] INFO  Utils.MyListener - Start find element -->By.xpath: //*[text()='Маркет']
+766  [main] INFO  Utils.MyListener - Element with locatorBy.xpath: //*[text()='Маркет']was found
+963  [main] INFO  Utils.MyListener - Start find element -->By.xpath: //span[text()='Экспресс']
+4827 [main] INFO  Utils.MyListener - Element with locatorBy.xpath: //span[text()='Экспресс']was found
+7155 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: [data-id='button-all']
+7178 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: [data-id='button-all']was found
+7305 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']
+7326 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: [href='/catalog--elektronika/23282330/list?filter-express-delivery=1&searchContext=express']was found
+13232 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']
+13370 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: [href='/catalog--smartfony-i-aksessuary/23282379?how=dpop&glfilter=&cvredirect=3&filter-express-delivery=1&searchContext=express&track=srch_ddl']was found
+17833 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']
+18045 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']was found
+18207 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']
+18244 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']was found
+18314 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']
+18338 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(1) [class='_3qxDp']was found
+18792 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']
+18842 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']was found
+18997 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']
+19035 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']was found
+19123 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']
+19157 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: span._1heDd:nth-child(2) [class='_3qxDp']was found
+23519 [main] INFO  Utils.MyListener - Start find element -->By.xpath: //span[text()='Xiaomi']
+23557 [main] INFO  Utils.MyListener - Element with locatorBy.xpath: //span[text()='Xiaomi']was found
+33796 [main] INFO  Utils.MyListener - Start find element -->By.cssSelector: div:nth-child(2) ._2UHry
+33819 [main] INFO  Utils.MyListener - Element with locatorBy.cssSelector: div:nth-child(2) ._2UHrywas found
+33852 [main] INFO  Utils.MyListener - Start find element -->By.id: header-search
+33879 [main] INFO  Utils.MyListener - Element with locatorBy.id: header-searchwas found
+35203 [main] INFO  Utils.MyListener - We have throwable -->element click intercepted: Element <input type="text" id="header-search" itemprop="query-input" name="text" class="_1FRli mini-suggest__input" value="" placeholder="Найти в Маркет Express" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"> is not clickable at point (725, 20). Other element would receive the click: <div class="_3LB9e" role="dialog" data-tid="a473d8b0">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7JRM91AM', ip: '192.168.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\79538\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 306ee118e86d17caae4a12dff61b7192
+35204 [main] INFO  Utils.MyListener - We have throwable -->null
+35204 [main] INFO  Utils.MyListener - We have throwable -->null
+35573 [main] INFO  Utils.MyListener - Your screenshot is here screenshots/screen634.png

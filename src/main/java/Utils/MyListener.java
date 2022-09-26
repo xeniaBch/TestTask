@@ -1,5 +1,6 @@
 package Utils;
 
+import Framework.HelperBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,6 +26,13 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info("We have throwable -->" + throwable.getMessage());
         logger.info("We have throwable -->" + throwable.getCause());
         logger.info("We have throwable -->" + throwable.getCause());
+        int index = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        String link = "screenshots/screen" + index + ".png";
+
+        HelperBase base = new HelperBase(driver);
+        base.takeScreenshot(link);
+        logger.info("Your screenshot is here "+ link);
+
     }
 
     public MyListener(){
